@@ -16,19 +16,20 @@
     <main>
         <div class="old">
 
-            <div>
-                <label for="iano">What year were you born ?</label>
-                <input type="number" name="ano" id="iano">
-            </div>
-            <div>
-                <span>Sex:</span>
-                <label for="isex">Man</label>
-                <input type="radio" name="sex" id="isex">
-
-                <label for="ifsex">Woman</label>
-                <input type="radio" name="sex" id="ifsex">
-            </div>
-            <input type="submit" value="check">
+            <form action="form.php" method="post">
+                <div >
+                    <label for="iano" >What year were you born ?</label>
+                    <input class="text" type="number" name="ano" id="iano" minlength="4" maxlength="4"  placeholder="year">
+                </div>
+                <div>
+                    <span>Sex:</span>
+                    <label for="isex">Man</label>
+                    <input type="radio" name="sex" id="isex">
+                    <label for="ifsex">Woman</label>
+                    <input type="radio" name="sex" id="ifsex">
+                </div>
+                <input  type="submit" value="check" class="bnt">
+            </form>
         </div>
         <div class="result">
 
