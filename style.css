@@ -39,7 +39,7 @@ main {
     padding-left: 20px;
     font-size: 15pt;
     font-weight: bold;
-
+    margin-bottom: 15px;
 }
 
 
@@ -54,6 +54,7 @@ main {
 }
 
 .bnt {
+    margin-top: 20px;
     height: 43px;
     width: 140px;
     border-radius: 8px;
@@ -68,4 +69,19 @@ main {
     text-decoration: none;
     cursor: pointer;
     box-shadow: 2px 2px 10px rgba(49, 49, 255, 0.913);
+}
+.result{
+    font-size: 17pt;
+    font-weight: 600;
+}
+footer{
+    color: white;
+    margin-top: 30px;
+}
+footer a{
+   
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
 }
