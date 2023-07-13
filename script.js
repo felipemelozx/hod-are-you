@@ -16,12 +16,19 @@ function check() {
             genero = 'male'
             if (idade >= 0 && idade < 10) {
                 //crianca
+                img.setAttribute('src', '../image/bebe-man.png')
+
             } else if (idade < 21) {
                 //jovem
+                img.setAttribute('src', '../image/jovem.png')
+
             } else if (idade < 50) {
                 //adulto    
+                img.setAttribute('src', '../image/man.png')
+
             } else {
                 //idoso
+                img.setAttribute('src', '../image/idoso-man.png')
             }
 
         } else {
@@ -36,8 +43,10 @@ function check() {
 
             } else if (idade < 50) {
                 //adulto
+                img.setAttribute('src', '../image/women.png')
             } else {
                 //idoso
+                img.setAttribute('src', '../image/idosa-wolmen.png')
             }
 
 
